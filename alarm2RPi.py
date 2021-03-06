@@ -1,12 +1,13 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-VEERSION = "20210306_1457"
+VEERSION = "20210306_1537"
 
 '''
 This python program running on a laptop connects to two remote headless controllers (Raspberry Pis) each operating a SSH server checking periodically for
 IP connection to a router and whether the SSH connection is good. 
 The status is displayed graphically using https://pysimplegui.readthedocs.io/en/latest/
-Function sendMesage keeps an audit trail of events in memory and is able to send messages to the user via Telegram app and email
+Function sendMesage keeps an audit trail of events in memory and is able to send messages to the user via Telegram app and email.
+Disable/comment this out initially to see basic operation.
 Other features are a lock to prevent it being run more than once on the same device and the ability to restart that proves useful when making changes and testing.
 zSamplePeriod locates where the sample periodicity can be changed.
 zMidnight locates actions to happen at midnight
