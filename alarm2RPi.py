@@ -1,11 +1,13 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-VEERSION = "20210306_1537"
+VEERSION = "20210306_1602"
 
 '''
 This python program running on a laptop connects to two remote headless controllers (Raspberry Pis) each operating a SSH server checking periodically for
 IP connection to a router and whether the SSH connection is good. 
+Testing was done under Xubuntu 20.04 LTS operating System with python 3.8.5
 The status is displayed graphically using https://pysimplegui.readthedocs.io/en/latest/
+PySimpleGUI version was 4.29.0.18 Unreleased. Obtain latest version from website above.
 Function sendMesage keeps an audit trail of events in memory and is able to send messages to the user via Telegram app and email.
 Disable/comment this out initially to see basic operation.
 Other features are a lock to prevent it being run more than once on the same device and the ability to restart that proves useful when making changes and testing.
