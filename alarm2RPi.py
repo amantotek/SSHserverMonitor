@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-VEERSION = "20210306_1602"
+VEERSION = "20210306_1931"
 
 '''
 This python program running on a laptop connects to two remote headless controllers (Raspberry Pis) each operating a SSH server checking periodically for
@@ -257,7 +257,7 @@ while True:  # Event Loop zEventLoop
     print("Pressed 3")
   if eveent == 'KYAB':
     #About
-    wiindow['KYMRESLT'].Update("sshAlarm.py RPi Tester V.{}".format(VEERSION))
+    wiindow['KYMRESLT'].Update("{} SSH Server Alarm V.{}".format(THISAPPFILENAME,VEERSION))
   if eveent == 'KYEVT':
     sTs = ""
     for sIteam in lEveents:
