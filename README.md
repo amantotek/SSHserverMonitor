@@ -10,6 +10,6 @@ See further notes at start of python program
 
 https://pysimplegui.readthedocs.io/en/latest/ cleverly brings a GUI to python
 
-(Note: CTRL+click to open URL links in a new tab)
+(Note: Use CTRL+click (on Windows and Linux) or CMD+click (on MacOS) to open URL links in a new tab)
 
 END
