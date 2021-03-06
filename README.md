@@ -10,4 +10,6 @@ See further notes at start of python program
 
 https://pysimplegui.readthedocs.io/en/latest/ cleverly brings a GUI to python
 
+(Note: CTRL+click to open URL links in a new tab)
+
 END
